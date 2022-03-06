@@ -1,10 +1,9 @@
 services:
   web:
-    build: .
+    image: slaac/user-service:0.4.1
     ports:
       - 3000:3000
-    # networks:
-    #   - portainer_default
+  
 # networks:
 #   portainer_default:
 #     external:
