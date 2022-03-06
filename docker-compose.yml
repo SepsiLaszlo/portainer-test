@@ -1,6 +1,6 @@
 services:
   web:
-    image: slaac/user-service:latest
+    build: .
     ports:
       - 3000:3000
   
